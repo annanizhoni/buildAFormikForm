@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  background-color: #D3D3D3;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  padding: 50px;
+  border: 3px solid #000000;
+  background-color: #FFFFFF;
+}
+
+input {
+  margin: 10px;
+  padding: 10px;
+  width: 300px;
+  font-size: 16px;
+  border: 3px solid #000000;
+}
+
+button {
+  margin: 20px;
+  padding: 10px;
+  font-size: 16px;
+  background-color: #000000;
+  color: #FFFFFF;
+  border: none;
+}
+
+button:hover {
+  background-color: #FFFFFF;
+  color: #000000;
+  border: 3px solid #000000;
+}
